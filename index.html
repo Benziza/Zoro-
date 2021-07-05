@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/images/logoProject.jpg" type="image/x-icon">
+    <title>Zoro Figure</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <section id="Home">
+        <header>
+            <a href="#"><img src="./assets/images/logoProject.jpg" alt="Logo zoro" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Footer">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content1">
+            <div class="textBox">
+                <h2>It's not just a Person<br />
+                    It's <span>Zoro</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ex blanditiis deleniti numquam sit inventore sequi dicta perferendis, 
+                    atque eos cum dolor iusto architecto quod quibusdam temporibus eaque 
+                    ipsam minus nobis.</p>
+                <a href="https://fr.wikipedia.org/wiki/Roronoa_Zoro" target="_blank">Learn More</a>
+            </div>
+            
+            <div class="imgBox">
+                <img src="./assets/images/zoro2.png" alt="Zoro1" class="zoro"/>
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./assets/images/thumb2.png" alt="Thumbnail" onclick="changeThumb('zoro2');changeColor('#017143')"></li>
+            <li><img src="./assets/images/thumb.png" alt="Thumbnail" onclick="changeThumb('zoro');changeColor('#000000')"></li>
+            <li><img src="./assets/images/thumb3.png" alt="Thumbnail" onclick="changeThumb('zoro3');changeColor('#D81F1F')"></li>
+        </ul>     
+    </section>
+
+
+
+    <section id = "Menu">
+        <h2 class = "product-title">zoro figure</h2>
+        <div class = "card">
+          <div class = "product-imgs">
+            <div class = "img-display">
+              <div class = "img-showcase">
+                <img src = "assets/images/shoe_1.jpg" alt = "shoe image">
+                <img src = "assets/images/shoe_2.jpg" alt = "shoe image">
+                <img src = "assets/images/shoe_3.jpg" alt = "shoe image">
+                <img src = "assets/images/shoe_4.jpg" alt = "shoe image">
+              </div>
+            </div>
+            <div class = "img-select">
+              <div class = "img-item">
+                <a href = "#" data-id = "1">
+                  <img src = "assets/images/shoe_1.jpg" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "2">
+                  <img src = "assets/images/shoe_2.jpg" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "3">
+                  <img src = "assets/images/shoe_3.jpg" alt = "shoe image">
+                </a>
+              </div>
+              <div class = "img-item">
+                <a href = "#" data-id = "4">
+                  <img src = "assets/images/shoe_4.jpg" alt = "shoe image">
+                </a>
+              </div>
+            </div>
+          </div>
+          
+            
+          </div>
+        </div>
+      </section>
+
+
+    <section id="Footer">
+        <div class="content2">
+            <h2>Contact Us</h2>
+            <p>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ex blanditiis deleniti numquam sit inventore sequi dicta perferendis, 
+                atque eos cum dolor iusto architecto quod quibusdam temporibus eaque 
+                ipsam minus nobis. 
+            </p>
+        </div>
+        <div class="container2">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Adress</h3>
+                        <p>Cecilia Chapman 711-2880 Nulla St.<br>Mankato Mississippi<br>96522</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>06-06-06-06-06</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>BlaBla@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required"/>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required"/>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="assets/script/script.js"></script>
+</body>
+</html>
